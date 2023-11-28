@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  [fullscreen]="true">
+  <ion-item>
+    <ion-label position="floating">Rut</ion-label>
+    <ion-input [(ngModel)]="formLogin.rut"placeholder="ingresesurut"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input [(ngModel)]="formLogin.password"type="password"placeholder="Ingresesucontraseña"></ion-input>
+  </ion-item>
+
+<ion-button (click)="iniciarSesion()"shape="block">IniciarSesion</ion-button>
+<ion-button [routerLink]="['/registro']"shape="block">Registrarse</ion-button>
+
+</ion-content>
