@@ -1,12 +1,15 @@
 import { TestBed } from '@angular/core/testing';
 
 import { BdserviceService } from './bdservice.service';
+import { SQLite } from '@awesome-cordova-plugins/sqlite/ngx';
 
 describe('BdserviceService', () => {
   let service: BdserviceService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      providers: [SQLite],
+    });
     service = TestBed.inject(BdserviceService);
   });
 
