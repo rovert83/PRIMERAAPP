@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'PrimeraAPP',
+  appName: 'APP GoGames',
   webDir: 'www',
   server: {
     androidScheme: 'https'
