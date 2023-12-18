@@ -4,10 +4,6 @@ import { ActivatedRoute } from '@angular/router';
 import { IonicStorageModule } from '@ionic/storage-angular';
 
 
-
-
-
-
 describe('LoginPage', () => {
  // Mock para ActivatedRoute
   const fakeActivatedRoute = {
@@ -27,7 +23,6 @@ describe('LoginPage', () => {
         IonicStorageModule.forRoot() // Agregar IonicStorageModule.forRoot() aquí
       ]
     }).compileComponents();
-
 
 
     fixture = TestBed.createComponent(LoginPage);

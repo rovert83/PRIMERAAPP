@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>home</ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,5 +11,10 @@
    <ion-item *ngIf="mensaje">
     <ion-label>Nombre Guardado:</ion-label>
     <ion-text>{{ mensaje }}</ion-text>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-button [routerLink]="['/modificar']">Modificar datos</ion-button>
   </ion-item>
 </ion-content>

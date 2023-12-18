@@ -5,7 +5,6 @@ import { BdserviceService } from 'src/app/services/bdservice.service';
 
 import { SQLite, SQLiteObject } from '@awesome-cordova-plugins/sqlite/ngx';
 
-
 /*
 describe('ModificarPage', () => {
   let component: ModificarPage;
